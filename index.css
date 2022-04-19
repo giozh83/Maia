@@ -69,9 +69,10 @@ border-radius: 30%;
     margin-top: 2%;
     width: 30vh;
     height: auto;
+    cursor: pointer;
 }
 
-.picture:hover {
+.picture12:hover {
     
     opacity: 1;
     cursor: pointer;
