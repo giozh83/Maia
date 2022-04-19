@@ -64,12 +64,9 @@ border-radius: 30%;
 .picture{
     position: absolute;
     opacity: 0.5;
-    border-radius: 20%;
-    margin-left: 2% ;
-    margin-top: 2%;
-    width: 30vh;
-    height: auto;
-    cursor: pointer;
+   
+    
+    
 }
 
 .picture12:hover {
