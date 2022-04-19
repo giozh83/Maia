@@ -4,7 +4,7 @@
     padding: 0;
 }
 .conteiner{
-background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6)), url('./photo/background.jpg');
+background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6)), url('./photo/background1.jpg');
 background-repeat: no-repeat;
 background-size: 100%;
 width: 100vw;
@@ -49,6 +49,7 @@ border-radius: 30%;
     margin-left: 78%;
     margin-top: 2%;
     
+    
 }
 
 .meniu1{
@@ -56,10 +57,25 @@ border-radius: 30%;
     margin-right: 15px;
     cursor: pointer;    
     text-align:right ;
+    text-decoration: none;
+    color: black;
 }
 
 .picture{
     position: absolute;
     opacity: 0.5;
-
+    border-radius: 20%;
+    margin-left: 2% ;
+    margin-top: 2%;
+    width: 30vh;
+    height: auto;
 }
+
+.picture:hover {
+    
+    opacity: 1;
+    cursor: pointer;
+    width: 70vh;
+    height: auto;   
+}
+
