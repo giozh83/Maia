@@ -5,7 +5,10 @@
 }
 
 body{
-    background-color: rgb(137, 141, 141);
+    background-image: url('../photo/info_background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
 }
 
 .parrent{

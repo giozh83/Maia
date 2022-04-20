@@ -4,7 +4,7 @@
     padding: 0;
 }
 .conteiner{
-background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6)), url('./photo/background1.jpg');
+background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)), url('./photo/background.jpg');
 background-repeat: no-repeat;
 background-size: 100%;
 width: 100vw;
@@ -56,19 +56,19 @@ border-radius: 30%;
     display: inline-block;
     margin-right: 15px;
     cursor: pointer;    
-    text-align:center ;
+    
     text-decoration: none;
     color: black;
-    border: 1px solid rgb(29, 28, 28);
+    
     width: 150px;
     height: 30px;
-    border-radius: 50%;
+    
     padding-top: 3px;
    
 }
 
 .meniu1:hover{
-    border: 2px solid rgb(29, 28, 28);
+    
     color: rgb(44, 43, 43);
 }
 
