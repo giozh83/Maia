@@ -50,14 +50,15 @@ border-radius: 30%;
     margin-top: 2%;
     
     
+    
 }
 
 .meniu1{
     display: inline-block;
     margin-right: 15px;
     cursor: pointer;    
+    text-decoration-line: underline;
     
-    text-decoration: none;
     color: black;
     
     width: 150px;
@@ -70,6 +71,13 @@ border-radius: 30%;
 .meniu1:hover{
     
     color: rgb(44, 43, 43);
+    font-size: larger;
+}
+
+.meniu1:active {
+
+    color: rgb(44, 43, 43);
+    font-size: medium;
 }
 
 .picture{
