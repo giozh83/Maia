@@ -28,7 +28,7 @@ body{
 }
 
 .child1 {
-    border: 2px solid black;
+    
     width: 80vw;
     height: 40vh;
     margin-top: 1%;
@@ -38,5 +38,18 @@ body{
 .profile{
     width: 70%;
     height: auto;
-    border-radius: 30%;
+    border-radius: 15%;
+    opacity: 1;
+}
+.profile:hover {
+    
+    opacity: 0.8;
+}
+
+h1{
+    text-align: center;
+    text-decoration-line: underline;
+}
+p{
+    text-align: center;
 }
