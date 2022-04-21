@@ -13,38 +13,58 @@ body{
 
 .parrent{
     display: flex;
-    width: 100vw;
-    height: 100vh;
-
 }
 
+.picture1{    
+    display: flex;   
+    margin-left: 10%;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+.nav{
+    
+    cursor: pointer;
+    margin-top: 60%;
+    width: 30%;
+    height: auto;
+    margin-left:30%;
+}
+
+.picture1_child1{ 
+    
+    width: 30vw;
+    height: auto;    
+}
+
+.picture1_child {  
+     
+    margin-right: 0.8%;
+    margin-left: 1.5%;
+    margin-top: 1%;
+}
+
+
+
+
+
 .child{
+    
     cursor: pointer;
     width: 20vw;
     height: 40vh;
+    top: 2%;
+    
+}
+
+.child1 {    
+    width: 100vw;    
+    margin-top: 1%;
     margin-right: 1%;
     margin-left: 1%;
-    margin-top: 1%;
 }
 
-.child1 {
-    
-    width: 80vw;
-    height: 40vh;
-    margin-top: 1%;
-    margin-right: 1%;
-}
 
-.profile{
-    width: 70%;
-    height: auto;
-    border-radius: 15%;
-    opacity: 1;
-}
-.profile:hover {
-    
-    opacity: 0.8;
-}
+
 
 h1{
     text-align: center;
@@ -52,5 +72,5 @@ h1{
 }
 p{
     text-align: center;
-    
+
 }
