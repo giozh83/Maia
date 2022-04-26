@@ -16,6 +16,7 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%,-50%);
+backface-visibility: hidden;
 }
 
 /* logo */
@@ -25,8 +26,8 @@ transform: translate(-50%,-50%);
     color: rgb(24, 24, 58);
     font-size: 30px;
     animation-name:moveinleft ;
-    
-    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
     
 }
 .qve_texti{   
@@ -34,7 +35,8 @@ transform: translate(-50%,-50%);
     letter-spacing: 5px;
     color: rgb(24, 24, 58);
     animation-name: moveinright;
-    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
 }
 .logo{
     position: absolute;
@@ -44,11 +46,22 @@ transform: translate(-50%,-50%);
     width: auto;
 }
 
+.logo:hover{
+    animation:moveinright_logo 2s ;
+    backface-visibility: hidden;
+}
+
 /* animacia */
 @keyframes moveinleft{
     0%{
        opacity: 0;
-       transform: translateX(-100px);
+       transform: translateX(-100px) rotate (0deg);
+    }
+    60%{
+        transform: rotate(180deg);
+    }
+    80%{
+        transform: translateX(10px);
     }
    
     100%{
@@ -60,6 +73,26 @@ transform: translate(-50%,-50%);
     0% {
         opacity: 0;
         transform: translateX(100px)
+    }
+
+        80% {
+            transform: translateX(-10px);
+        }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveinright_logo {
+    0% {
+        opacity: 0.5;
+        transform: translateX(20px)
+    }
+
+    80% {
+        transform: translateX(-5px);
     }
 
     100% {
