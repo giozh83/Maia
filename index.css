@@ -3,13 +3,83 @@
     margin: 0px;
     padding: 0;
 }
+body{
+    background-image: linear-gradient(to right bottom,rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),url(photo/background.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        
+        
+}
+.header{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+/* logo */
+.start_logo{   
+    text-align: center; 
+    letter-spacing: 20px;
+    color: rgb(24, 24, 58);
+    font-size: 30px;
+    animation-name:moveinleft ;
+    
+    animation-duration: 2s;
+    
+}
+.qve_texti{   
+    text-align: center; 
+    letter-spacing: 5px;
+    color: rgb(24, 24, 58);
+    animation-name: moveinright;
+    animation-duration: 2s;
+}
+.logo{
+    position: absolute;
+    top: 1vw;
+    left: 1vh;
+    height: 30%;
+    width: auto;
+}
+
+/* animacia */
+@keyframes moveinleft{
+    0%{
+       opacity: 0;
+       transform: translateX(-100px);
+    }
+   
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+@keyframes moveinright {
+    0% {
+        opacity: 0;
+        transform: translateX(100px)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+.coverr{
+    
+    background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        clip-path: polygon(0 0, 100% 0, 100% 0vh, 0 200%);
+}
 .conteiner{
-background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)), url('./photo/background.jpg');
-background-repeat: no-repeat;
-background-size: 100%;
+
 width: 100vw;
 height: 100vh;
 display: flex;
+
 
 }
 
