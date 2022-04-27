@@ -103,7 +103,8 @@ backface-visibility: hidden;
 .coverr{
     
     background-repeat: no-repeat;
-        background-size: cover;
+        width: 80vw;
+        height: auto;
         background-position: top;
         clip-path: polygon(0 0, 100% 0, 100% 0vh, 0 200%);
 }
