@@ -11,13 +11,14 @@ body{
         
         
 }
-.header{
+.header1{
 position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%,-50%);
 backface-visibility: hidden;
-text-align: center;
+
+
 }
 
 /* logo */
@@ -31,25 +32,27 @@ text-align: center;
     animation-duration: 1s;
     
 }
-.qve_texti{   
+ .qve_texti{   
     text-align: center; 
     letter-spacing: 5px;
     color: rgb(24, 24, 58);
     animation-name: moveinright;
     animation-timing-function: ease-in-out;
     animation-duration: 1s;
-}
+} 
 .logo{
     position: absolute;
     top: 1vw;
     left: 1vh;
     height: 30%;
     width: auto;
+    animation-duration: 30s;
 }
 
 .logo:hover{
-    animation:moveinright_logo 2s ;
-    backface-visibility: hidden;
+       transform: translateY(-5px); 
+        
+        
 }
 
 /* animacia */
@@ -109,16 +112,16 @@ text-align: center;
         background-position: top;
         clip-path: polygon(0 0, 100% 0, 100% 0vh, 0 200%);
 }
-.conteiner{
+/* .conteiner{
 
 width: 100vw;
 height: 100vh;
 display: flex;
 
 
-}
+} */
 
-.pirveli{
+/* .pirveli{
 background-color: azure;
 width: 10vw;
 height: 5vh;
@@ -138,17 +141,17 @@ border-radius: 30%;
     margin-left: 1%;
     cursor: pointer;
     border-radius: 30%;
-}
+} */
 
-.meore:hover{
+/* .meore:hover{
     background-color: rgb(172, 240, 240);
     border: 3px solid black;
 }
 .pirveli:hover {
     background-color: rgb(172, 240, 240);
     border: 3px solid black;
-}
-.Meniu{   
+} */
+/* .Meniu{   
     display: flex;
     list-style: none;
     margin-left: 5%;
@@ -165,9 +168,9 @@ border-radius: 30%;
     color: rgb(119, 99, 99);         
     padding-top: 3px;
    
-}
+} */
 
-.meniu1:hover{
+/* .meniu1:hover{
     
     color: rgb(44, 43, 43);
     font-size: larger;
@@ -178,56 +181,71 @@ border-radius: 30%;
 
     color: rgb(44, 43, 43);
     font-size: medium;
-}
+} */
 
-.picture{
+/* .picture{
     position: absolute;
     opacity: 0.5;
     
    
     
     
-}
+} */
 
-.picture12:hover {
+/* .picture12:hover {
     
     opacity: 1;
     cursor: pointer;
     width: 70vh;
     height: auto;   
-}
+} */
+
+/* .but_conteiner{
+    display: block;
+    display: flex;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    width: 40vw;
+    height: 5vh;
+    
+    left: 10%;
+
+} */
 
 
 /* button */
 
-.but:link,
+/* .but:link,
 .but:visited{
-    position: absolute;
+    
     padding: 5px 20px;
-    left:15%;
+   padding-bottom: 10px;
     transition: all .5s;
-}
+} */
 
-.but_wite_ser:link{
-        position: absolute;
+/* .but_wite_ser:link{
+       
         padding: 5px 20px;
-        left: 52%;
+        
         transition: all .5s;
 
-}
+} */
 
-.but:hover{     
+/* .but:hover{    
+    border: 1px solid rgb(241, 150, 150); 
     transform:translateY(-5px);
     color: rgb(16, 126, 223);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 2);
-}
-.but:active {
+} */
+/* .but:active {
     transform: translateY(-1px);
     box-shadow: 1 5px 10px rgba(253, 247, 247, 2);
-}
+} */
 
-.but_wite{
-    
+/* .but_wite{
+    width: 35%;
     text-decoration: none;
     background-color: white;
     color: gray;
@@ -235,9 +253,10 @@ border-radius: 30%;
 }
 
 .but_wite_ser{
+    width: 35%;
     text-decoration: none;
         background-color: white;
         color: gray;
         border-radius: 100px;
-}
+} */
 
