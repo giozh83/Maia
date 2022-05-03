@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+}
+body{
+
+    background-image: url('./photo/BMI_Cover.jpg');
+    /* background-color: rgb(182, 178, 178); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.input_txt{
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.text_box{
+    position: absolute;
+    display: flex; 
+    width: 70vw;   
+    left:40vh;
+    top: 50vh;
+    
+    transform: translate(0%,0%);
+    padding: 50px 15px;
+
+
+    
+}
+
+.lable{
+    display: flex;
+    
+    border: 1px solid black;
+    
+    
+}
+
+/* .H5_Lable_1{
+    
+ position: absolute;
+ top: -1%;
+ 
+        
+}
+
+.H5_Lable_2 {
+
+    position: absolute;
+    top: -1%;
+    left: 20%;
+
+
+} */
+
+.text1 {
+color: rgb(94, 94, 177);
+}
